@@ -15,9 +15,8 @@ public class Item {
 
     public Item() {}
 
-    public Item(long id, int quantity, String name, String category) {
+    public Item(int quantity, String name, String category) {
         super();
-        this.id = id;
         this.quantity = quantity;
         this.name = name;
         this.category = category;
